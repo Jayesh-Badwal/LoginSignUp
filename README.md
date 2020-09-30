@@ -5,10 +5,10 @@ My Login/Sign Up App using Firebase Database
 
 
 
-![](mainpage.png)
+![](mainpage.jpg)
 
 
-![](SignUp1.png)
+![](SignUp1.jpg)
 
 
-![](SignUp2.png)
+![](SignUp2.jpg)
