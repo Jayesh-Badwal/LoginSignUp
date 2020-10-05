@@ -61,7 +61,7 @@ public class Login extends AppCompatActivity {
 
         final String _completePhoneNumber = "+" + countryCodePicker.getFullNumber() + _phoneNumber;
 
-        Query checkUser = FirebaseDatabase.getInstance().getReference("Users").orderByChild("phoneNo").equalTo(_phoneNumber);
+        Query checkUser = FirebaseDatabase.getInstance().getReference("Users").orderByChild("phoneNo").equalTo(_completePhoneNumber);
         checkUser.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
